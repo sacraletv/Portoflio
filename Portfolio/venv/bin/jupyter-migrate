@@ -1,0 +1,6 @@
+#!/Users/zbryant04/Documents/GitHub/Portoflio/Portfolio/venv/bin/python3
+import sys
+from jupyter_core.migrate import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
